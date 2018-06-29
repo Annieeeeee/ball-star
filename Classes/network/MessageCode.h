@@ -1,75 +1,70 @@
 /***********
-¶¨ÒåÃüÁîÀàÐÍ
+å®šä¹‰å‘½ä»¤ç±»åž‹
 ***********/
 #ifndef MessageCode_h
 #define MessageCode_h
 
 /**
-* @name Ñ¯ÎÊÍøÂçÖÐÊÇ·ñ´æÔÚÒÑ¾­½¨Á¢ºÃµÄÓÎÏ··¿¼ä
+* @name è¯¢é—®ç½‘ç»œä¸­æ˜¯å¦å­˜åœ¨å·²ç»å»ºç«‹å¥½çš„æ¸¸æˆæˆ¿é—´
 * @{
 */
 #define QUERY_FOR_ROOM  "a"
 /** @} */
 
 /**
-* @name »ØÓ¦QUERY_FOR_ROOM, ²¢Ìá¹©·¿¼ä»ù±¾ÐÅÏ¢
+* @name å›žåº”QUERY_FOR_ROOM, å¹¶æä¾›æˆ¿é—´åŸºæœ¬ä¿¡æ¯
 * @{
 */
 #define ANSWER_FOR_ROOM "b"
 /** @} */
 
 /**
-* @name ¿ªÆôclientµÄfilter mode, ²¢´«Êä¹ýÂË¹Ø¼ü´Ê
+* @name å¼€å¯clientçš„filter mode, å¹¶ä¼ è¾“è¿‡æ»¤å…³é”®è¯
 * @{
 */
 #define KEY_ORDER       "c"
 /** @} */
 
 /**
-* @name ¹ã²¥¿ªÊ¼ÓÎÏ·Ö¸Áî
+* @name å¹¿æ’­å¼€å§‹æ¸¸æˆæŒ‡ä»¤
 * @{
 */
 #define START_GAME      "d"
 /** @} */
 
 /**
-* @name Ïò·¿¼äÄÚËùÓÐÍæ¼Ò´«ÊäÐÂ¼ÓÈë·¿¼äµÄÍæ¼ÒÐÅÏ¢
+* @name å‘æˆ¿é—´å†…æ‰€æœ‰çŽ©å®¶ä¼ è¾“æ–°åŠ å…¥æˆ¿é—´çš„çŽ©å®¶ä¿¡æ¯
 * @{
 */
 #define JOIN_ROOM       "e"
 /** @} */
 
 /**
-* @name ÐÂ¼ÓÈë·¿¼äµÄÍæ¼ÒÏò·¿¼äÓµÓÐÕßÇëÇó·¿¼äÄÚËùÓÐÍæ¼ÒµÄÐÅÏ¢
+* @name æ–°åŠ å…¥æˆ¿é—´çš„çŽ©å®¶å‘æˆ¿é—´æ‹¥æœ‰è€…è¯·æ±‚æˆ¿é—´å†…æ‰€æœ‰çŽ©å®¶çš„ä¿¡æ¯
 * @{
 */
 #define QUERY_FOR_PLAYERS_IN_ROOM "f"
 /** @} */
 
 /**
-* @name QUERY_FOR_PLAYERS_IN_ROOM, ·¿¼äËùÓÐÕß\n
-* 		ÏòÐÂ¼ÓÈëÕß´«Êä·¿¼äÄÚËùÓÐÍæ¼ÒµÄÐÅÏ¢
+* @name QUERY_FOR_PLAYERS_IN_ROOM, æˆ¿é—´æ‰€æœ‰è€…\n
+* 		å‘æ–°åŠ å…¥è€…ä¼ è¾“æˆ¿é—´å†…æ‰€æœ‰çŽ©å®¶çš„ä¿¡æ¯
 * @{
 */
 #define ANSWER_FOR_PLAYERS_IN_ROOM "g"
 /** @} */
 
 /**
-* @name Ïò·¿¼äÄÚËùÓÐÍæ¼Ò´«ÊäÁÄÌìÐÅÏ¢
+* @name å‘æˆ¿é—´å†…æ‰€æœ‰çŽ©å®¶ä¼ è¾“èŠå¤©ä¿¡æ¯
 * @{
 */
 #define CHAT_MESSAGE    "h"
 /** @} */
 
-/**
-* @name Ïò·¿¼äÄÚÆäËûÍæ¼Ò´«Êä·¿Ö÷ËùÑ¡ÔñµÄµØÍ¼Ë÷Òý
-* @{
-*/
-#define MAP_SELECT      "i"
-/** @} */
+
 
 /**
-* @name ÏòÓÎÏ·ÄÚÆäËûÍæ¼Ò¹ã²¥ËÀÍöÏûÏ¢£¬È·±£Í¬²½ËÀÍö
+* @name å‘æ¸¸æˆå†…å…¶ä»–çŽ©å®¶å¹¿æ’­æ­»äº¡æ¶ˆæ¯ï¼Œç¡®ä¿åŒæ­¥æ­»äº¡
 * @{
 */
 #define DEAD_MESSAGE    "j"
